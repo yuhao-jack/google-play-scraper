@@ -3,7 +3,7 @@ package category
 import (
 	"testing"
 
-	"github.com/n0madic/google-play-scraper/pkg/store"
+	"github.com/yuhao-jack/google-play-scraper/pkg/store"
 )
 
 var resultsCount = 10
