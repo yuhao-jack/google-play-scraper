@@ -9,7 +9,7 @@ import (
 
 // Float parse from string
 func Float(str string) float64 {
-	re := regexp.MustCompile(`\d+[.,]\d+`)
+	re := regexp.MustCompile(`\d+[.,]?\d?`)
 	f, err := strconv.ParseFloat(strings.Replace(re.FindString(str), ",", ".", 1), 64)
 	if err != nil {
 		return 0
